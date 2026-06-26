@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memoriessong-com"
+version = "0.1.0"
+description = "Python metadata and integration helper package for Memories Song keepsake music workflows for https://memoriessong.com"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{ name = "Memories Song", email = "support@memoriessong.com" }]
+keywords = ["memoriessong.com", "metadata", "integration", "seo"]
+
+[project.urls]
+Homepage = "https://memoriessong.com"
+Documentation = "https://memoriessong.com/docs"
+Repository = "https://github.com/youram470-art/memoriessong-com-python"
+Issues = "https://github.com/youram470-art/memoriessong-com-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
