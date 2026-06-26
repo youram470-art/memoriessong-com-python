@@ -1,21 +1,21 @@
-HOMEPAGE = "https://memoriessong.com"
-DOCUMENTATION = "https://memoriessong.com/docs"
+HOMEPAGE = "https://wan27.org"
+DOCUMENTATION = "https://wan27.org/docs"
 PACKAGE = "memoriessong-com"
 REPOSITORY = "https://github.com/youram470-art/memoriessong-com-python"
 LOCAL_REPOSITORY = "/Users/mac/Documents/code/foreversong"
 CONTENT_PATH = "content"
 APP_PATH = "src/app"
-FOCUS = "AI keepsake music, memory-song creation, and emotional tribute song workflows"
+FOCUS = "AI video generation, prompt-to-video workflows, and Wan27 site metadata"
 
 
 def hello() -> str:
-    return "hello from memoriessong.com"
+    return "hello from wan27.org"
 
 
 def get_site_info() -> dict:
     return {
-        "name": "Memories Song",
-        "domain": "memoriessong.com",
+        "name": "Wan27",
+        "domain": "wan27.org",
         "homepage": HOMEPAGE,
         "documentation": DOCUMENTATION,
         "package": PACKAGE,
